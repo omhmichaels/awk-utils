@@ -1,0 +1,7 @@
+BEGIN {
+  FS=",";
+  template="email_template.txt";
+  output="acceptance";
+  getline;
+  NR=0;
+}
